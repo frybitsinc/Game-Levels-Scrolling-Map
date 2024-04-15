@@ -147,7 +147,7 @@ class _GameLevelsScrollingMapState extends State<GameLevelsScrollingMap> {
     return Container(
         alignment: Alignment.center,
         key: widget.key ?? _key,
-        color: Colors.red,
+        color: Colors.transparent,
         width: widget.width != 0 ? widget.width : maxWidth,
         height: maxHeight,
         child: widget.isScrollable
